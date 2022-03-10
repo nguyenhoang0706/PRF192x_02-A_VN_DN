@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+</head>
+<body>
+    <h1 class="title">Class Marksheet</h1>
+    <!-- input  -->
+        <div action="">
+            <div class="input__box">
+                <span class="input__title">Họ tên</span>
+                <input id="inputName" class="input__form1" type="text">
+            </div>
+            <div class="input__box">
+                <span class="input__title">Điểm toán</span>
+                <input id="inputMath" class="input__form2" type="text">
+            </div>
+            <div class="input__box">
+                <span class="input__title">Điểm Lý</span>
+                <input id="inputPhysic" class="input__form3" type="text">
+            </div>
+            <div class="input__box">
+                <span class="input__title">Điểm hóa</span>
+                <input id="inputScience" class="input__form4" type="text">
+            </div>
+            <button id="inputBtn" onclick="">Nhập</button>
+        </div>
+    <!-- end input -->
+    <!-- table -->
+        <table id="table">
+            <tr id="tableTr">
+                <th id="tableTh" class="table__stt">STT</th>
+                <th id="tableTh" class="table__ten">Họ tên</th>
+                <th id="tableTh" class="table__toan">Toán</th>
+                <th id="tableTh" class="table__ly">Lý</th>
+                <th id="tableTh" class="table__hoa">Hóa</th>
+                <th id="tableTh" class="table__tb">Trung bình</th>
+            </tr>
+           
+        </table>
+        
+        <!-- end table -->
+        <div class="btn__box">
+            <!-- button -->
+            <button id="btnTB" >Tính điểm trung bình</button>
+            <button id="btnGrade">Xác định học sinh giỏi</button>
+    
+        </div>
+        
+        <script src="/js/js.js"></script>
+</body>
+</html>
