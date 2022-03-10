@@ -1,0 +1,28 @@
+.article{
+    cursor: pointer;
+    
+}
+
+.article img{
+    height: 200px;
+    width: 30%;
+    border: solid 1px #000;
+    margin: 10px 5px;
+    float: left;
+}
+
+.article-content {
+    height: 200px;
+    width: 68%;
+    float: right;
+    margin: 10px 5px;
+}
+
+.article-content p{
+    font-style: italic;
+}
+@media only screen and(max-width: 768px){
+    .article-content{
+        background: red;
+    }
+}
